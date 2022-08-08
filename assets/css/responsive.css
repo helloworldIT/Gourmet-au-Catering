@@ -1,0 +1,34 @@
+/* Tablet */
+@media (min-width: 49.333em) and (max-width:68.2em){
+    .m-col-ful{
+        width: 100%;
+    }
+}
+
+/* Tablet & mobile */
+
+@media (max-width: 68.2em){
+    .contact{
+        padding: 0 1.3333333333333333em;
+    }
+
+    .full-width-btn{
+        width: 100%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:49.3333em){
+    #header .nav{
+        display: none;
+    }
+
+    .p-8-16{
+        padding: 0.53em 1.0666667em !important;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+}

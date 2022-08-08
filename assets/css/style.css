@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/* COMMON */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    line-height: 1.5!important;
+}
+
+.row{
+   padding: 64px 8px;
+   max-width: 1150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.half-column{
+    float: left;
+    width: 50%;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* End common */
+#header{
+    background-color: white;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#header .nav a{
+    float: right;
+}
+
+#header a{
+    letter-spacing: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#header a:hover{
+    background-color: #ccc;
+}
+
+#head-image{
+    background: url(/assets/images/hamburger.jpg) top center/cover no-repeat;
+    position: relative;
+    padding-top: 50%;
+}
+
+#head-image .food-name{
+    bottom: 0;
+    left: 0;
+    padding: 16px 24px;
+    opacity: 0.6;
+    position: absolute;
+}
+
+#head-image .food{
+    text-shadow: 0 0 1 #000;
+}
+
+#content .about,
+#content .menu{
+    border-bottom: 1px solid #ccc;
+}
+
+#content .table-img{
+    opacity: 0.8;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#content .wrap-img{
+    padding: 12px 24px;
+}
+
+#content .wrap-content{
+    padding: 12px 24px;
+}
+
+#content .content-header,
+#content .sub-header{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#content .content-header{
+    padding-bottom: 30px;
+}
+
+#content .description-1,
+#content .description-2{
+    font-size: 18px;
+    margin: 18px 0;
+    line-height: 1.5;
+}
+
+#content .description-2{
+    color: #757575;
+}
+
+.menu .list-food{
+    list-style-type: none;
+}
+
+.list-food h3{
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 50px;
+}
+
+
+
+.list-food p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: #757575;
+}
+
+.contact h1{
+    padding-bottom: 40px
+}
+
+.contact .address{
+    font-weight: bold;
+    color: #607d8b;
+    font-size: 18px;
+}
+
+.contact p{
+    margin: 18px 0;
+}
+
+.contact input{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.contact input:not([type=button]){
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+    padding: 16px 8px;
+    margin-bottom: 16px;
+}
+
+.contact .send-button{
+    margin: 16px 0;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+}
+
+.contact .send-button:hover{
+    background-color: #bbb;
+}
+
+#footer{
+    background-color: #f1f1f1;
+    padding: 32px 0;
+}
+
+#footer p{
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
